@@ -1,4 +1,4 @@
-#include "motorPins.h";
+#include "motorPins.h"
 const int THROTTLE_STOP = 0;
 const int THROTTLE_FORWARD = 1;
 const int THROTTLE_BACKWARDS = 2;
@@ -7,7 +7,7 @@ const int TURN_CENTER = 3;
 const int TURN_LEFT = 4;
 const int TURN_RIGHT = 5;
 
-struct motorsStruct motors = {{14, 12}, {15, 13}};
+struct motorsStruct motors = {{32, 33}, {12, 14}};
 
 void initCarControls(){
   setupMotorPins(motors.steeringPins);
