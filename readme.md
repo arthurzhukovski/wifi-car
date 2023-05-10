@@ -15,7 +15,9 @@ For instance, in case of ESP8266 include "ESP8266WiFi.h" instead of "WiFi.h" and
 To control the car send via UDP an integer that represents a command:
 
 ```
-ncat -u 192.168.0.100 6969
+> ncat -u 192.168.0.100 6969
+> 1
+> 0
 ```
 
 List of available commands can be found in "carControls.h" file.
